@@ -22,7 +22,7 @@ const App = () => {
   }, [query]);
 
   const GetMovies = async () => {
-    const response = await fetch(`http://www.omdbapi.com/?s=${query}&y=${year}&type=movie&apikey=${APP_ID}`);
+    const response = await fetch(`https://www.omdbapi.com/?s=${query}&y=${year}&type=movie&apikey=${APP_ID}`);
     const data = await response.json();
     console.log(data.Search);
     setMovies(data.Search);
