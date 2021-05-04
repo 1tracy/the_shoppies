@@ -1,3 +1,7 @@
+# Hello, I'm Tracy! 
+I have set up a live demonstration via Heroku, which you can view [here](https://dtrxcy-the-shoppies.herokuapp.com/), or to run this app locally, download this repository and follow the instructions below.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
